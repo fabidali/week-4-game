@@ -1,0 +1,24 @@
+body{
+	background-image:url("../images/pattern.jpg");
+}
+header{
+	width:200px;
+	height: 70px
+	background-color: #f77027;
+	margin-bottom: 10px;
+}
+#game_name{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+.paragraph{
+	width: 350px;
+	height:370px;
+	background-color: #f4d684;
+	margin-bottom: 10px;
+}
+p{
+	color: green;
+	padding: 5px;
+}
