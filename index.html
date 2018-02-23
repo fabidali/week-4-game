@@ -31,11 +31,21 @@
 		</div>
 		<h2 id="random_display"></h2>
 		<div class="btn-group">
-        <img src="assets/images/red.jpg" class="click" id="red">
-        <img src="assets/images/blue_.jpg" class="click" id="blue">
-        <img src="assets/images/yellow.jpg" class="click" id="yellow">
-        <img src="assets/images/green_c.jpg" class="click" id="green">
+        <img src="assets/images/red_c.png" class="gem-image" id="red">
+        <img src="assets/images/blue_c.png" class="gem-image" id="blue">
+        <img src="assets/images/yellow_c.png" class="gem-image" id="yellow">
+        <img src="assets/images/green_c.png" class="gem-image" id="green">
    </div>
-	<script src="assets/javascript/game.js"></script>
+   
+	<script src="assets/javascript/game.js">
+
+		// This is just an example of how to use JQuery within your html file. Not needed here
+		$('.gem-image').click(function() {
+			this // clicked element
+			var newWeight = $(this).attr('weight')
+			total = total + newWeight;
+		})
+		//
+	</script>
 </body>
 </html>

@@ -1,9 +1,14 @@
 body{
-	background-image:url("../images/pattern.jpg");
+	background-image:url("../images/cotton.jpg");
+}
+
+.gem-image{
+	width: 150px;
+	height: 150px;
 }
 header{
 	width:200px;
-	height: 70px
+	height: 70px;
 	background-color: #f77027;
 	margin-bottom: 10px;
 }
