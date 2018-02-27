@@ -29,23 +29,30 @@
 				Each time when the game starts, the game will change the values of each crystal
 			</p>
 		</div>
+
+		 <div class="start">
+        <div class="total"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins"></div>
+        	Losses:<div id="losses"></div>
+        </div>
+    </div>
+    
 		<h2 id="random_display"></h2>
 		<div class="btn-group">
-        <img src="assets/images/red_c.png" class="gem-image" id="red">
-        <img src="assets/images/blue_c.png" class="gem-image" id="blue">
-        <img src="assets/images/yellow_c.png" class="gem-image" id="yellow">
-        <img src="assets/images/green_c.png" class="gem-image" id="green">
+        <img src="assets/images/red.png" class="click_gem" id="red">
+        <img src="assets/images/blue.png" class="click_gem" id="blue">
+        <img src="assets/images/yellow.png" class="click_gem" id="yellow">
+        <img src="assets/images/green.png" class="click_gem" id="green">
    </div>
-   
-	<script src="assets/javascript/game.js">
 
-		// This is just an example of how to use JQuery within your html file. Not needed here
-		$('.gem-image').click(function() {
-			this // clicked element
-			var newWeight = $(this).attr('weight')
-			total = total + newWeight;
-		})
-		//
-	</script>
+  
+    <div class="score">
+        <h5>Your total score is:</h5>
+   </div>
+   <div class="addition"></div>
+   
+	<script src="assets/javascript/game.js"></script>
 </body>
 </html>
